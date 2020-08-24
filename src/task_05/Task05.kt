@@ -6,6 +6,7 @@ package task_05
 
 fun main() {
     print(luasSegitiga(5, 7))
+    print(luasSegitiga(5.0, 7.0))
 }
 
 fun luasSegitiga(alas:Int, tinggi:Int): Double = (alas * tinggi).toDouble() / 2

@@ -13,5 +13,7 @@ fun main() {
 
 fun isPalindrom(text: String) {
     val reverseText = text.reversed()
-    println(text == reverseText)
+    println(
+            if (text == reverseText) "PALINDROM"
+            else "Bukan Palindrom")
 }

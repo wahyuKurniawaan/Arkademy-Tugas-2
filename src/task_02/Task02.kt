@@ -13,5 +13,6 @@ fun main() {
     y = x - y
     x -= y
 
-    print("$x $y")
+    println("X = $x")
+    println("Y = $y")
 }

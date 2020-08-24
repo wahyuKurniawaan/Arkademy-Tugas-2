@@ -5,11 +5,14 @@ package task_01
  */
 
 fun main() {
-    var x: Int = 10
-    var y: Int = 20
-    var temporary: Int? = null
+    var x = 10
+    var y = 20
+    val temporary: Int?
 
     temporary = x
     x = y
     y = temporary
+
+    println("X = $x")
+    println("Y = $y")
 }
